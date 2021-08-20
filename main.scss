@@ -1,0 +1,10 @@
+// @import url("./sub.scss"); // css 방식
+@import "./sub", "./sub2"; // scss 방식
+
+$color: royalblue;
+
+.container {
+  h1 {
+    color: $color;
+  }
+}
